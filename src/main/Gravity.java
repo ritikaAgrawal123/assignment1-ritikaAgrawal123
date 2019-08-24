@@ -17,6 +17,7 @@ public class Gravity {
 		double time = scanner.nextDouble();
 		double distance = (gravityConst * time * time) / 2;
 		double speed = gravityConst * time;
+        System.out.println("The speed of the object at " + time +  " seconds after its release is " + speed + " and the distance the object has travelled in the " + time + "seconds after the relase is " + distance);
 		scanner.close();
 
 	}
